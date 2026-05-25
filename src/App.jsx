@@ -230,11 +230,13 @@ export default function App() {
             </div>
           </section>
 
-          <section className="book-grid">
-            {filteredBooks.map((book) => (
-              <BookCard key={book.id} book={book} onEdit={openEditForm} onDelete={handleDelete} />
-            ))}
-          </section>
+          <div className="books-scroll">
+            <section className="book-grid">
+              {filteredBooks.map((book) => (
+                <BookCard key={book.id} book={book} onEdit={openEditForm} onDelete={handleDelete} />
+              ))}
+            </section>
+          </div>
         </>
       )}
 
