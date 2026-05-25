@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self Help",
+      "publicationYear": 2018
+    },
+    {
+      "id": "2",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "genre": "Programming",
+      "publicationYear": 2008
+    },
+    {
+      "id": "3",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Fiction",
+      "publicationYear": 1988
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "book-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "server": "json-server --watch db.json --port 5000"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "axios": "latest",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hot-toast": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "@eslint/js": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "globals": "latest",
+    "json-server": "latest"
+  }
+}
