@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/books';
+const API_URL =
+  import.meta.env.VITE_API_URL ||
+  'https://6a1479406c7db8aac054996b.mockapi.io/api/v1/books';
 
 export const getBooks = async () => {
   const response = await axios.get(API_URL);
