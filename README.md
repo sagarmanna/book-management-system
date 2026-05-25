@@ -150,26 +150,3 @@ After creating your MockAPI endpoint, add it in Vercel environment variables:
 VITE_API_URL=https://6a1479406c7db8aac054996b.mockapi.io/api/v1/books
 ```
 
-Then redeploy the project.
-
-### Submission Checklist
-
-- Add the live deployed frontend URL above.
-- Add the GitHub repository URL above.
-- Confirm the deployed environment variable `VITE_API_URL` points to a hosted API.
-- Test add, edit, delete, search, and genre filter on the deployed URL.
-
-## Assignment Coverage
-
-This project covers all assignment requirements:
-
-- React-based Book Management System
-- CRUD operations through API
-- Book list with title, author, genre, and publication year
-- Add, edit, and delete functionality
-- Search by title or author
-- Genre filtering
-- Loading state
-- Error state
-- Clean and maintainable component structure
-- Deployment-ready setup
