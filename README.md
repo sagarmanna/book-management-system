@@ -4,7 +4,7 @@ A clean React-based CRUD assignment project where users can view, add, update, d
 
 ## Live Demo
 
-Add your deployed Vercel/Netlify URL here.
+https://book-management-system-three-henna.vercel.app/
 
 ## GitHub Repository
 
